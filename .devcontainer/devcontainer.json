@@ -4,15 +4,12 @@
   // Open port 3000 by default
   "appPort": 3000,
 
-  // Install ESLint and Peacock extensions
+  // Install ESLint extension
   "extensions": [
-    "dbaeumer.vscode-eslint",
-    "johnpapa.vscode-peacock"
+    "dbaeumer.vscode-eslint"
   ],
 
-  // Set remote color for Peacock
   "settings": {
-    "peacock.remoteColor": "#0078D7"
   },
 
   // Run Bash script in .devcontainer directory
