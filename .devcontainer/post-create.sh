@@ -35,9 +35,11 @@ echo Download packer version ${PACKER_VERSION}
 wget https://releases.hashicorp.com/packer/${PACKER_VERSION}/packer_${PACKER_VERSION}_linux_amd64.zip
 unzip packer_${PACKER_VERSION}_linux_amd64.zip
 sudo mv packer /usr/local/bin/
+rm packer_${PACKER_VERSION}_linux_amd64.zip
 
 TERRAFORM_VERSION=0.12.26
 echo Download terraform version ${TERRAFORM_VERSION}
 wget https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip
 unzip terraform_${TERRAFORM_VERSION}_linux_amd64.zip
 sudo mv terraform /usr/local/bin/
+rm unzip terraform_${TERRAFORM_VERSION}_linux_amd64.zip
